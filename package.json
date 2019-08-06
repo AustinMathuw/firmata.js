@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "browser-serialport": "latest",
-    "serialport": "~6.0.4"
+    "serialport": "^6.0.4"
   },
   "scripts": {
     "test": "grunt",
