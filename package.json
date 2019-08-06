@@ -29,10 +29,6 @@
     "sinon": "^4.1.3",
     "webpack": "^1.12.14"
   },
-  "dependencies": {
-    "browser-serialport": "latest",
-    "serialport": "^6.0.4"
-  },
   "scripts": {
     "test": "grunt",
     "attempt-timeout": "node examples/test-i2c-read.js && node examples/test-i2c-read.js && node examples/test-analog-read.js && node examples/test-analog-read.js && node examples/test-serial-read.js && node examples/test-serial-read.js",
